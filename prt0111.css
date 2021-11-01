@@ -1,0 +1,31 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-family: 'Fruktur', cursive;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.stih{
+	height: 33%;
+	width: 33%;
+	column-count: 4;
+	column-gap: 5px;
+	column-rule: dotted 5px brown;
+}
+span{
+	color: brown;
+}
+.text{
+	text-overflow: ellipsis;
+
+	overflow: hidden;
+	white-space: nowrap;
+	max-width: 20%;
+}
